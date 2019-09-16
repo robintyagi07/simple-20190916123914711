@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 
-    <head>
-        <title>DemoDRA - Current Weather</title>
+  <head>
+    <title>NodeJS Starter Application</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/style.css">
+  </head>
 
-        <link rel="stylesheet" href="/built/css/default.css" />
-
-        <script src="/bower_components/angular/angular.js"></script>
-        <script src="/bower_components/angular-route/angular-route.js"></script>
-        <script src="/js/controllers.js"></script>
-    </head>
-
-    <body>
-        <div float="left">
-            <% include includes/mainbody %>
-        </div>
-    </body>
-
-    <script>
-         angular.element(document).ready(function() {
-            angular.bootstrap(document, ['ConsoleModule']);
-        });
-    </script>
+  <body>
+    <table>
+      <tr>
+        <td style= "width:30%;">
+          <img class = "newappIcon" src="images/newapp-icon.png" alt="">
+        </td>
+        <td>
+          <h1 id="message">Hello Robin Tyagi Ji devopsss </h1>
+          <p class='description'></p> Thanks for creating a <span class = "blue">NodeJS Starter Application</span>.
+        </td>
+      </tr>
+    </table>
+  </body>
 
 </html>
